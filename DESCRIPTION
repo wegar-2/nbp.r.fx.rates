@@ -1,0 +1,24 @@
+Package: nbp.interface
+Type: Package
+Title: This package implements querying National Bank of Poland's API from R
+Version: 0.1.0
+Author: Artur Wegrzyn
+Maintainer: Artur Wegrzyn <awegrzyn17@gmail.com>
+Description: This package contains functions for querying the API of National 
+    Bank of Poland for FX rates (cf. http://api.nbp.pl/en.html)
+    The available FX rates are the FX rates agains Polish zloty. The available 
+    Available FX rate pairs against zloty are: 
+    AUD, THB, BRL, BGN, CAD, CLP, CZK, DKK, EUR, HUF, HKD, UAH, ISK, INR, HRK,
+    MYR, MXN, NZD, NOK, PHP, GBP, ZAR, RON, IDR, RUB, SGD, SEK, CHF, TRY, USD, 
+    KRW, JPY, CNY
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    dplyr,
+    magrittr,
+    lubridate,
+    httr
+Suggests: 
+    testthat
