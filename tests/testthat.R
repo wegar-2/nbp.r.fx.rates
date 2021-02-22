@@ -1,4 +1,4 @@
 library(testthat)
-library(nbp.interface)
+library(okeanos.nbp.interface)
 
-test_check("nbp.interface")
+test_check("okeanos.nbp.interface")
